@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTelegramBot.StartUp", "CurrencyTelegramBot.StartUp\CurrencyTelegramBot.StartUp.csproj", "{FBC92E11-B090-40B4-BD37-857ED6CA4E6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StartUp", "StartUp", "{D3702BA7-2BB7-4D2B-9284-65B7678D904B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{A8DE4382-0DAB-4AE6-AC69-29E48D901D74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTelegramBot.Models", "CurrencyTelegramBot.Models\CurrencyTelegramBot.Models.csproj", "{B0BC97A3-969B-4AEF-ABAF-9DD78D419BCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D632C987-D5F9-487F-A202-3347F1A1EB6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyTelegramBot.Services", "CurrencyTelegramBot.Services\CurrencyTelegramBot.Services.csproj", "{E7385D4C-DB01-4797-B122-7C6A992BDFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyTelegramBot.Services.Tests", "CurrencyTelegramBot.Services.Tests\CurrencyTelegramBot.Services.Tests.csproj", "{D776B93D-3996-4F6F-90D9-81AB9BD42FAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBC92E11-B090-40B4-BD37-857ED6CA4E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC92E11-B090-40B4-BD37-857ED6CA4E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC92E11-B090-40B4-BD37-857ED6CA4E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC92E11-B090-40B4-BD37-857ED6CA4E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0BC97A3-969B-4AEF-ABAF-9DD78D419BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BC97A3-969B-4AEF-ABAF-9DD78D419BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BC97A3-969B-4AEF-ABAF-9DD78D419BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BC97A3-969B-4AEF-ABAF-9DD78D419BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7385D4C-DB01-4797-B122-7C6A992BDFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7385D4C-DB01-4797-B122-7C6A992BDFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7385D4C-DB01-4797-B122-7C6A992BDFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7385D4C-DB01-4797-B122-7C6A992BDFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D776B93D-3996-4F6F-90D9-81AB9BD42FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D776B93D-3996-4F6F-90D9-81AB9BD42FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D776B93D-3996-4F6F-90D9-81AB9BD42FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D776B93D-3996-4F6F-90D9-81AB9BD42FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBC92E11-B090-40B4-BD37-857ED6CA4E6A} = {D3702BA7-2BB7-4D2B-9284-65B7678D904B}
+		{B0BC97A3-969B-4AEF-ABAF-9DD78D419BCC} = {A8DE4382-0DAB-4AE6-AC69-29E48D901D74}
+		{E7385D4C-DB01-4797-B122-7C6A992BDFB0} = {D632C987-D5F9-487F-A202-3347F1A1EB6B}
+		{D776B93D-3996-4F6F-90D9-81AB9BD42FAD} = {D632C987-D5F9-487F-A202-3347F1A1EB6B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F934BA9-0FAB-45A3-BA10-A1F38BB1AA11}
+	EndGlobalSection
+EndGlobal
